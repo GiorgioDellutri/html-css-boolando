@@ -86,36 +86,46 @@ div.male1{
     background-image: url(../img/1.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 div.female1{
     background-image: url(../img/2.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 div.female2{
     background-image: url(../img/3.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 div.male2{
     background-image: url(../img/4.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 div.female3{
     background-image: url(../img/5.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 div.female4{
     background-image: url(../img/6.webp);
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 p.brand{
@@ -132,7 +142,7 @@ span.price{
     font-weight: bold;
 }
 
-span.discount{
+span.price-discount{
     text-decoration: line-through;
 }
 
@@ -142,11 +152,24 @@ main div.position{
 
 div.infocard{
     position: absolute;
+    left: 9px;
     top:100%;
 }
 
+div.card div.heart{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: white
+}
 
-
+div.card div.heart span{
+    font-size: 35px;
+    display: table;
+    margin: 0 auto;
+}
 
 
 
