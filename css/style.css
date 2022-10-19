@@ -19,29 +19,42 @@
 }
 
 header{
-    height: 80px;
+    height: 60px;
     background-color: #FF6900;
     align-items: center;
 }
 
 nav.header{
     height: 50px;
+    line-height: 45px;
 }
 
 nav div.menu,
 div.icons{
-    flex-basis: 3   0%;
-    background-color: green;
-}
-
-div ul.menu{
-    background-color:green;
+    flex-basis: 30%;
+    padding: 1rem;
 }
 
 nav div.logo{
     flex-basis: 70%;
+    text-align: center;
 }
 
 ul>li{
     display: inline-block;
+    padding: 0.2rem;
+}
+
+.box-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    
+}
+
+main div.box-cards div.card{
+    height: 500px;
+    width: 400px;
+    background-color: gray;
 }
