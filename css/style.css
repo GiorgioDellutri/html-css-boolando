@@ -89,28 +89,43 @@ div.male1{
     background-repeat: no-repeat;
 }
 
+div.male1:hover{
+    background-image: url(../img/1b.webp);
+}
+
 div.female1{
     background-image: url(../img/2.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-
 }
+
+div.female1:hover{
+    background-image: url(../img/2b.webp);
+}
+
 
 div.female2{
     background-image: url(../img/3.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-
 }
+
+div.female2:hover{
+    background-image: url(../img/3b.webp);
+}
+
 
 div.male2{
     background-image: url(../img/4.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
 
+div.male2:hover{
+    background-image: url(../img/4b.webp);
 }
 
 div.female3{
@@ -118,7 +133,10 @@ div.female3{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
 
+div.female3:hover{
+    background-image: url(../img/5b.webp);
 }
 
 div.female4{
@@ -127,6 +145,11 @@ div.female4{
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+div.female4:hover{
+    background-image: url(../img/6b.webp);
+}
+
 
 p.brand{
     font-size: 0.8rem;
@@ -212,6 +235,10 @@ div.card div.sustainable-tag-special p{
 
 
 
+
+
+
+
 footer{
     display: flex;
     height:100px;
@@ -232,3 +259,4 @@ footer{
     height: 60px;
     background-color: red;
 }
+
