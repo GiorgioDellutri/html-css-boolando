@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bordered{
+    border: 1px solid black;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    height: 80px;
+    background-color: #FF6900;
+    align-items: center;
+}
+
+nav.header{
+    height: 50px;
+}
+
+nav div.menu,
+div.icons{
+    flex-basis: 3   0%;
+    background-color: green;
+}
+
+div ul.menu{
+    background-color:green;
+}
+
+nav div.logo{
+    flex-basis: 70%;
+}
+
+ul>li{
+    display: inline-block;
+}
