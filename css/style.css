@@ -58,11 +58,12 @@ nav.header div.logo{
 ul>li{
     display: inline-block;
     padding: 0.2rem;
+    color: white;
 }
 
 ul.menu li>a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .row{
