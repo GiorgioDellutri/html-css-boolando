@@ -30,8 +30,8 @@ header{
 }
 
 nav.header{
-    height: 40px;
-    line-height: 5px;
+    height: 35px;
+    line-height: 1px;
 }
 
 nav ul.menu,
@@ -233,12 +233,6 @@ div.card div.sustainable-tag-special p{
     font-size: 0.8rem;
 }
 
-
-
-
-
-
-
 footer{
     display: flex;
     height:100px;
@@ -249,14 +243,48 @@ footer{
 .info{
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
     height: 60px;
 }
 
 .left-footer,
 .right-footer{
-    flex-basis: 50%;
+    flex-basis: 60%;
     height: 60px;
-    background-color: red;
 }
 
+.left-footer{
+    margin-left: 9px;
+}
+
+.right-footer{
+    margin-left: 9px;
+}
+
+footer div.right-footer{
+    margin-left: 10px;
+}
+footer div.right-footer p{
+    color: white;
+}
+
+footer div.right-footer p{
+    color: white;
+    text-align: right;
+}
+
+div.left-footer :first-child{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer div.left-footer a{
+    display: inline;
+    color: white;
+    padding: 3px;
+    font-size: .8rem;
+}
+
+footer div.left-footer a{
+    text-decoration: none;
+    
+}
