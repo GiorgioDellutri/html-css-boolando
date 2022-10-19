@@ -4,21 +4,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
         <title>Boolando</title>
     </head>
     <body>
         <header class="flex">
             <nav class="header flex container ">
-                <ul class="menu bordered">
-                    <li>Uomo</li>
-                    <li>Donna</li>
-                    <li>Bambini</li>
+                <ul class="menu">
+                    <li><a href="Uomo">Uomo</a></li>
+                    <li><a href="Uomo">Donna</a></li>
+                    <li><a href="Uomo">Bambini</a></li>
                 </ul>
-                <div class="logo bordered">
-                    <!-- <img class="logo" src="./img/boolean-logo.png" alt=""> -->
-                </div>
-                <ul class="icons bordered ">
+                <div class="logo"></div>
+                <ul class="icons">
                     <li>Icona 1</li>
                     <li>Icona 2</li>
                     <li>Icona 3</li>
@@ -28,21 +29,62 @@
 
         <main>
             <div class="row row1 container ">
-                <div class="card male1 bordered"></div>
-                <div class="card female1 bordered"></div>
-                <div class="card female2 bordered"></div>
+                <div class="card male1 position ">
+                    <div class="infocard">
+                        <p class="brand">Levi's</p>
+                        <p class="type">RELAXED FIT TEE UNISEX</p>
+                        <span class="price">14,99</span>
+                        <span class="discount">29,99 &euro;</span>
+                    </div>
+                    
+                </div>
+                    <div class="card female1 position ">
+                        <div class="infocard">
+                        <p class="brand">LGuess</p>
+                        <p class="type">ROSES TEE</p>
+                        <span class="price">20,99</span>
+                        <span class="discount">29,99 &euro;</span>
+                    </div>
+                </div>
+                <div class="card female2 position">
+                    <div class="infocard">
+                        <p class="brand">Come Zucchero Filato</p>
+                        <p class="type">VOGLIA DI COLORI PASTELLO</p>
+                        <span class="price">129,99</span>
+                        <span class="discount">184,99 &euro;</span>
+                    </div>
+                </div>
             </div>
             
-            <div class="row row2 container ">
-                <div class="card male2 bordered"></div>
-                <div class="card female3 bordered"></div>
-                <div class="card female4 bordered "></div>
+            <div class="row row2 container">
+                <div class="card male2 position">
+                    <div class="infocard">
+                        <p class="brand">Levi's</p>
+                        <p class="type">TEE UNISEX</p>
+                        <span class="price">14,99</span>
+                        <span class="discount">29,99 &euro;</span>
+                    </div>
+                </div>
+                <div class="card female3 position">
+                    <div class="infocard">
+                        <p class="brand">Maya Deluxe</p>
+                        <p class="type">STRIPE BODICE</p>
+                        <span class="price">99,99</span>
+                    </div>
+                </div>
+                <div class="card female4 position">
+                    <div class="infocard">
+                        <p class="brand">Espirit</p>
+                        <p class="type">MAGLIONE BLACK</p>
+                        <span class="price">29,99</span>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
             <div class="info container">
-                <div class="left-footer bordered"></div>
-                <div class="right-footer bordered"></div>
+                <div class="left-footer"></div>
+                <div class="right-footer"></div>
             </div>
 
         </footer>
