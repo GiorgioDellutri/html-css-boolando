@@ -34,11 +34,13 @@ ul.icons{
     flex-basis: 20%;
     padding: 1rem;
 }
+nav ul.icons{
+    text-align: right;
+}
 
 nav div.logo{
     flex-basis: 60%;
     text-align: center;
-    margin: 0 auto;
 }
 
 ul>li{
@@ -60,14 +62,45 @@ ul>li{
 main div.row div.card{
     height: 550px;
     width: calc(100% / 3 - 18px);
-    background-color: gray;
     margin: 9px;
 }
 
-img.male{
+div.male1{
+    background-image: url(../img/1.webp);
     background-position: center;
     background-size: contain;
 }
+
+div.female1{
+    background-image: url(../img/2.webp);
+    background-position: center;
+    background-size: contain;
+}
+
+div.female2{
+    background-image: url(../img/3.webp);
+    background-position: center;
+    background-size: contain;
+}
+
+div.male2{
+    background-image: url(../img/4.webp);
+    background-position: center;
+    background-size: contain;
+}
+
+div.female3{
+    background-image: url(../img/5.webp);
+    background-position: center;
+    background-size: contain;
+}
+
+div.female4{
+    background-image: url(../img/6.webp);
+    background-position: center;
+    background-size: contain;
+}
+
 
 footer{
     display: flex;
@@ -85,7 +118,7 @@ footer{
 
 .left-footer,
 .right-footer{
-    width: 100px;
+    flex-basis: 50%;
     height: 60px;
     background-color: red;
 }
