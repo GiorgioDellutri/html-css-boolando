@@ -14,7 +14,7 @@
 }
 
 .container{
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -26,18 +26,19 @@ header{
 
 nav.header{
     height: 50px;
-    line-height: 45px;
+    line-height: 15px;
 }
 
-nav div.menu,
-div.icons{
-    flex-basis: 30%;
+nav ul.menu,
+ul.icons{
+    flex-basis: 20%;
     padding: 1rem;
 }
 
 nav div.logo{
-    flex-basis: 70%;
+    flex-basis: 60%;
     text-align: center;
+    margin: 0 auto;
 }
 
 ul>li{
@@ -45,16 +46,16 @@ ul>li{
     padding: 0.2rem;
 }
 
-.box-cards{
+.col{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     flex-wrap: wrap;
     margin-top: 80px;
-    
 }
 
-main div.box-cards div.card{
+main div.col div.card{
     height: 500px;
-    width: 400px;
+    width: calc(100%/3 - 15px);
     background-color: gray;
+    margin: 7.5px;
 }
