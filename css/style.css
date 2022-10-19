@@ -46,16 +46,44 @@ ul>li{
     padding: 0.2rem;
 }
 
-.col{
+.row{
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
     margin-top: 80px;
 }
 
-main div.col div.card{
-    height: 500px;
-    width: calc(100%/3 - 15px);
+.row2{
+    margin-bottom: 70px;
+}
+
+main div.row div.card{
+    height: 550px;
+    width: calc(100% / 3 - 18px);
     background-color: gray;
-    margin: 7.5px;
+    margin: 9px;
+}
+
+img.male{
+    background-position: center;
+    background-size: contain;
+}
+
+footer{
+    display: flex;
+    height:100px;
+    align-items: center;
+    background-color: #1A1A1A;
+}
+
+.info{
+    background-color: aquamarine;
+    height: 60px;
+}
+
+.left-footer,
+.right-footer{
+    width: 100px;
+    height: 20px;
+    background-color: red;
 }
