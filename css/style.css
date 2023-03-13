@@ -1,186 +1,210 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 
 }
 
-.bordered{
+.bordered {
     border: 1px solid black;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
 }
 
-.container{
+.container {
     width: 65%;
     margin: 0 auto;
 }
 
-header{
+header {
     height: 60px;
     background-color: #FF6900;
     align-items: center;
+    width: 100%;
 }
 
-nav.header{
+/* header,nav{
+    position: fixed;
+} */
+
+nav.header {
     height: 35px;
     line-height: 1px;
 }
 
-nav ul.menu,
-ul.icons{
-    flex-basis: 20%;
-    padding: 1rem;
+ul.menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-nav ul.icons{
+
+ul.menus li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul.menu,
+ul.icons {
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul.icons {
     text-align: right;
 }
 
-nav div.logo{
+ul.icons li i {
+
+    color: whitesmoke;
+}
+
+nav div.logo {
     flex-basis: 60%;
     text-align: center;
 }
 
-nav.header div.logo{
+nav.header div.logo {
     background-image: url(../img/boolean-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-ul>li{
+ul>li {
     display: inline-block;
     padding: 0.2rem;
     color: white;
 }
 
-ul.menu li>a{
+ul.menu li>a {
     text-decoration: none;
     color: white;
 }
 
-.row{
+.row {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 80px;
 }
 
-.row2{
+.row2 {
     margin-bottom: 100px;
 }
 
-main div.row div.card{
+main div.row div.card {
     height: 550px;
     width: calc(100% / 3 - 18px);
     margin: 9px;
 }
 
-div.male1{
+div.male1 {
     background-image: url(../img/1.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-div.male1:hover{
+div.male1:hover {
     background-image: url(../img/1b.webp);
 }
 
-div.female1{
+div.female1 {
     background-image: url(../img/2.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-div.female1:hover{
+div.female1:hover {
     background-image: url(../img/2b.webp);
 }
 
 
-div.female2{
+div.female2 {
     background-image: url(../img/3.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-div.female2:hover{
+div.female2:hover {
     background-image: url(../img/3b.webp);
 }
 
 
-div.male2{
+div.male2 {
     background-image: url(../img/4.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-div.male2:hover{
+div.male2:hover {
     background-image: url(../img/4b.webp);
 }
 
-div.female3{
+div.female3 {
     background-image: url(../img/5.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-div.female3:hover{
+div.female3:hover {
     background-image: url(../img/5b.webp);
 }
 
-div.female4{
+div.female4 {
     background-image: url(../img/6.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-div.female4:hover{
+div.female4:hover {
     background-image: url(../img/6b.webp);
 }
 
 
-p.brand{
+p.brand {
     font-size: 0.8rem;
 }
 
-p.type{
+p.type {
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-span.price{
+span.price {
     color: red;
     font-weight: bold;
 }
 
-span.price-discount{
+span.price-discount {
     text-decoration: line-through;
 }
 
-main div.position{
+main div.position {
     position: relative;
 }
 
-div.infocard{
+div.infocard {
     position: absolute;
     left: 9px;
-    top:100%;
+    top: 100%;
 }
 
-div.card div.heart{
+div.card div.heart {
     position: absolute;
     top: 10px;
     right: 5px;
@@ -189,108 +213,108 @@ div.card div.heart{
     background-color: white
 }
 
-div.heart:hover span{
+div.heart:hover span {
     color: #ED4956;
 }
 
-div.card div.heart span{
+div.card div.heart span {
     font-size: 2.2rem;
     display: table;
     margin: 0 auto;
 }
 
-div.card div.discount-tag{
+div.card div.discount-tag {
     position: absolute;
     background-color: red;
     top: 90%;
     left: 9px;
 }
 
-div.card div.discount-tag p{
+div.card div.discount-tag p {
     color: white;
     padding: 3.6px 8px;
     font-size: 0.8rem;
 }
 
-div.card div.sustainable-tag{
+div.card div.sustainable-tag {
     position: absolute;
     background-color: green;
-    top:90%;
-    left:60px;
+    top: 90%;
+    left: 60px;
     color: white;
 }
 
-div.card div.sustainable-tag p{
+div.card div.sustainable-tag p {
     padding: 3.6px 8px;
     font-size: 0.8rem;
 }
 
-div.card div.sustainable-tag-special{
+div.card div.sustainable-tag-special {
     position: absolute;
     background-color: green;
-    top:90%;
+    top: 90%;
     left: 9px;
     color: white;
 }
 
-div.card div.sustainable-tag-special p{
+div.card div.sustainable-tag-special p {
     padding: 3.6px 8px;
     font-size: 0.8rem;
 }
 
-footer{
+footer {
     display: flex;
-    height:100px;
+    height: 100px;
     align-items: center;
     background-color: #1A1A1A;
 }
 
-.info{
+.info {
     display: flex;
     justify-content: space-between;
     height: 60px;
 }
 
 .left-footer,
-.right-footer{
+.right-footer {
     flex-basis: 60%;
     height: 60px;
 }
 
-.left-footer{
+.left-footer {
     margin-left: 9px;
 }
 
-.right-footer{
+.right-footer {
     margin-left: 9px;
 }
 
-footer div.right-footer{
+footer div.right-footer {
     margin-left: 10px;
 }
-footer div.right-footer p{
+
+footer div.right-footer p {
     color: white;
 }
 
-footer div.right-footer p{
+footer div.right-footer p {
     color: white;
     text-align: right;
 }
 
-div.left-footer :first-child{
+div.left-footer :first-child {
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-footer div.left-footer a{
+footer div.left-footer a {
     display: inline;
     color: white;
     padding: 3px;
     font-size: .8rem;
 }
 
-footer div.left-footer a{
+footer div.left-footer a {
     text-decoration: none;
-    
-}
 
+}
